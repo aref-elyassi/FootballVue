@@ -1,6 +1,6 @@
 <template>
   <Header/>
-  <Home/>
+<router-view class="router"></router-view>
 </template>
 <script>
 import Home from './views/Home.vue';
@@ -10,5 +10,7 @@ export default{
 }
 </script>
 <style>
-
+.router{
+  margin-top: 5rem;
+}
 </style>
