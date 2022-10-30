@@ -1,5 +1,5 @@
 <template>
-    <div class="template">
+    <div>
         <router-view></router-view>
     </div>
 </template>
@@ -10,9 +10,6 @@
     }
 </script>
 
-<style  scoped>
-.template{
-    height: 100vh;
-    
-}
+<style lang="scss" scoped>
+
 </style>
