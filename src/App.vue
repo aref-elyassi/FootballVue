@@ -12,5 +12,7 @@ export default{
 <style>
 .router{
   margin-top: 5rem;
+ 
+
 }
 </style>
