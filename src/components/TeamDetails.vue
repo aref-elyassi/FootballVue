@@ -2,16 +2,26 @@
     <div class="container">
         <div class="row border rounded p-5 d-flex align-items-center justify-content-between">
             <h1 class="text-center">{{teamDetails.name}}</h1>
-            <img class="stadium col-md-4 col-sm-12" :src="require(`@/assets/images/${teamDetails.stadium_image}`)"
+            <div class="col-md-4 col-sm-12 d-flex align-items-center justify-content-center flex-column">
+
+                <img class="stadium  rounded mb-2" :src="require(`@/assets/images/${teamDetails.stadium_image}`)"
                 alt="">
+                
+                <h5>Stadium:{{teamDetails.stadium}}</h5>
+                <h5>Capacity: {{teamDetails.capacity}} person</h5>
+            </div>
             <div class="col-md-4 col-sm-12 d-flex align-items-center justify-content-center flex-column">
                 <img class="team-logo col-md-4 col-sm-12 mb-2" :src="require(`@/assets/images/${teamDetails.logo}`)"
                     alt="">
                 <h5>Founded in:{{teamDetails.founded}}</h5>
-                <h5>Stadium:{{teamDetails.stadium}}</h5>
-                <h5>Capacity: {{teamDetails.capacity}} person</h5>
+               
             </div>
-            <h3 class="text-center">Players</h3>
+            <div class="col-md-4 col-sm-12 d-flex align-items-center justify-content-center flex-column">
+                <img :src="require(`@/assets/images/${teamDetails.imageCoach}`)" alt="" class="coachimage">
+                <br>
+                <h5>Coach:{{teamDetails.coach}}</h5>
+            </div>
+            <h3 class="text-center mt-1">Players</h3>
             <hr>
             <div class="teams d-flex align-items-center justify-content-center flex-wrap">
                     <div v-for="player in teamDetails.players" :key="player.id" class="col-md-2 col-sm-12 mt-3
@@ -28,8 +38,9 @@
 </template>
 
 <script>
+ 
 export default {
-    props: ['teamDetails']
+    props: ['teamDetails'],
 }
 </script>
 
@@ -50,12 +61,18 @@ h5 {
 
 .stadium {
 
-    border-radius: 10px;
+    width: 20rem;
+    height: 13rem;
 }
 
 .playerImage {
     width: 10rem;
     height: 10rem;
     border-radius: 10px;
+}
+.coachimage{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5px;
 }
 </style>

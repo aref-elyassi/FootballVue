@@ -289,6 +289,8 @@ Teams:[
         stadium:'Old Trafford',
         stadium_image:'oldtraford.jpg',
         capacity:'74.310',
+        coach:'Erik Ten Hag',
+        imageCoach:'tenhag.jpg',
         players: [
           { id: 1, name: 'Ronaldo', image: 'ronaldo.jpg' },
           {id:2,name:'Jadon Sancho',image:'sancho.jpg'},
@@ -305,9 +307,16 @@ Teams:[
         founded:'1880',
         stadium:'Etihad',
         stadium_image:'mancity.jpg',
+        coach:'Pep Guardiola',
+        imageCoach:'pep.jpg',
         capacity:'53.400',
         players: [
-          { id: 1, name: 'ronaldo', image: 'ronaldo4.jpg' }
+          { id: 1, name: 'Erling Haaland', image: 'haaland.jpg' },
+          {id:2,name:'Kevin De Bruyne',image:'kevin.jpg'},
+          {id:3,name:'Phil Foden',image:'foden.jpg'},
+          {id:4,name:'Riyad Mahrez',image:'mahrez.jpg'},
+          {id:5,name:'İlkay Gündoğan',image:'gondogan.jpg'},
+          {id:6,name:'Ederson',image:'ederson.jpg'}
         ]
 
       },
@@ -318,9 +327,16 @@ Teams:[
         founded:'1892',
         stadium:'Anfield',
         stadium_image:'liverpoolstadium.jpg',
+        coach:'Jürgen Klopp',
+        imageCoach:'klop.jpg',
         capacity:'53.394',
         players: [
-          { id: 1, name: 'ronaldo', image: 'ronaldo4.jpg' }
+          { id: 1, name: 'Mohammad Salah', image: 'salah.jpg' },
+          {id:2,name:'Virgil van Dijk',image:'virgil.jpg'},
+          {id:3,name:'Roberto Firmino',image:'firmino.jpg'},
+          {id:4,name:'Alisson Becker',image:'becker.jpg'},
+          {id:5,name:'Thiago Alcântara',image:'tiago.jpg'},
+          {id:6,name:'Jordan Henderson',image:'henderson.jpg'}
         ]
       },
       {
@@ -330,9 +346,16 @@ Teams:[
         founded:'1886',
         stadium:'Emirates',
         stadium_image:'emirates.jpg',
+        coach:'Mikel Arteta',
+        imageCoach:"arteta.jpg",
         capacity:'60.704',
         players: [
-          { id: 1, name: 'ronaldo', image: 'ronaldo4.jpg' }
+          { id: 1, name: 'Gabriel Jesus', image: 'jesus.jpg' },
+          {id:2,name:'Bukayo Saka',image:'saka.jpg'},
+          {id:3,name:'Martin Ødegaard',image:'odegard.jpg'},
+          {id:4,name:'Gabriel Martinelli',image:'martinelli.jpg'},
+          {id:5,name:'Aaron Ramsdale',image:'ramsdale.jpg'},
+          {id:6,name:'Granit Xhaka',image:'xaka.jpg'}
         ]
       },
       {
@@ -342,9 +365,16 @@ Teams:[
         founded:'1905',
         stadium:'Stamford Bridge',
         stadium_image:'chelsea.jpg',
+        coach:'Graham Potte',
+        imageCoach:'potter.jpg',
         capacity:'40.341',
         players: [
-          { id: 1, name: 'ronaldo', image: 'ronaldo4.jpg' }
+          { id: 1, name: 'Kai Havertz', image: 'havertz.jpg' },
+          {id:2,name:'NGolo Kanté',image:'kante.jpg'},
+          {id:3,name:'Édouard Mendy',image:'mendy.jpg'},
+          {id:4,name:'César Azpilicueta',image:'azpili.jpg'},
+          {id:5,name:'Thiago Silva',image:'silva.jpg'},
+          {id:6,name:'Jorginho',image:'jorginho.jpg'}
         ]
       },
       {
@@ -354,9 +384,16 @@ Teams:[
         founded:'1882',
         stadium:'Tottenham Stadium',
         stadium_image:'tottenhamstadium.jpg',
+        coach:'Antonio Conte',
+        imageCoach:'konte.jpg',
         capacity:'65.000',
         players: [
-          { id: 1, name: 'ronaldo', image: 'ronaldo4.jpg' }
+          { id: 1, name: 'Son Heung-min', image: 'son.jpg' },
+          {id:2,name:'Harry Kane',image:'kane.jpg'},
+          {id:3,name:'Ivan Perišić',image:'ivan.jpg'},
+          {id:4,name:'Rodrigo Bentancur',image:'bentancur.jpg'},
+          {id:5,name:'Lucas Moura',image:'mora.jpg'},
+          {id:6,name:'Hugo Lloris',image:'loris.jpeg'}
         ]
       },
       {
