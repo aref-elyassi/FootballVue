@@ -52,7 +52,7 @@ h1 {
 
 h5 {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(7, 142, 195);
+    color: rgb(0, 44, 61);
 }
 
 .team-logo {

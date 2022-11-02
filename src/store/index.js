@@ -576,6 +576,8 @@ Teams:[
         founded:'1926',
         stadium:'Stadio San Paolo',
         stadium_image:'napolistadium.jpg',
+        coach:'Luciano Spalletti',
+        imageCoach:'spaleti.jpg',
         capacity:'54.726'
       },
       {

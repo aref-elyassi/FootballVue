@@ -11,6 +11,8 @@ export default{
 </script>
 <style>
 .router{
-margin-top: 4rem;
+
+background-color: aqua;
+height: 100%;
 }
 </style>
