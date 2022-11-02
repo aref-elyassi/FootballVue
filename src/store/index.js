@@ -403,7 +403,17 @@ Teams:[
         founded:'1902',
         stadium:'Sntiago Bernabeo',
         stadium_image:'realstadium.jpg',
-        capacity:'81.000'
+        coach:'Carlo Angelotti',
+        imageCoach:'carlo.jpg',
+        capacity:'81.000',
+        players:[
+          {id:1,name:'Karim Benzema',image:'benzema.jpg'},
+          {id:2,name:'Vini Jr',image:'vini.jpg'},
+          {id:3,name:'Toni Kroos',image:'kroos.jpg'},
+          {id:4,name:'Luka Modrić',image:'modrich.jpg'},
+          {id:5,name:'Thibaut Courtois',image:'tibo.jpg'},
+          {id:6,name:'Federico Valverde',image:'fede.jpg'}
+        ]
 
       },
       {
