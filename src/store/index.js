@@ -423,7 +423,17 @@ Teams:[
         founded:'1899',
         stadium:'Camp Nou',
         stadium_image:'newcamp.jpg',
-        capacity:'99.065'
+        coach:'Xavi Hernandes',
+        imageCoach:'xavi.jpeg',
+        capacity:'99.065',
+        players:[
+          {id:1,name:'Robert Lewandowski',image:'lewa.jpg'},
+          {id:2,name:'Gavi',image:'gavi.jpg'},
+          {id:3,name:'Pedri',image:'pedri.jpg'},
+          {id:4,name:'Frenkie de Jong',image:'franki.jpg'},
+          {id:5,name:'Ousmane Dembélé',image:'osman.jpg'},
+          {id:6,name:'Raphinha',image:'raphinia.jpg'}
+        ]
       },
       {
         id: 9,
@@ -431,8 +441,18 @@ Teams:[
         logo: 'Atletico_de_Madrid.png',
         founded:'1903',
         stadium:'Metropolitano',
+        coach:'Diego Simeone',
+        imageCoach:'diego.jpg',
         stadium_image:'metropolitano.jpg',
-        capacity:'68.456'
+        capacity:'68.456',
+        players:[
+          {id:1,name:'Antoine Griezmann',image:'grizman.jpg'},
+          {id:2,name:'João Félix',image:'felix.jpg'},
+          {id:3,name:'Jan Oblak',image:'oblak.jpg'},
+          {id:4,name:'Ángel Correa',image:'corea.jpg'},
+          {id:5,name:'Yannick Carrasco',image:'carasco.jpg'},
+          {id:6,name:'Álvaro Morata',image:'morat.jpg'}
+        ]
       },
       {
         id: 10,
@@ -441,7 +461,17 @@ Teams:[
         founded:'1890',
         stadium:'Ramón Sánchez Pizjuán',
         stadium_image:'Sevillastadium.jpg',
-        capacity:'42.704'
+        coach:'Julen Lopetegui',
+        imageCoach:'lopetegi.jpg',
+        capacity:'42.704',
+        players:[
+          {id:1,name:'Isco',image:'isco.jpg'},
+          {id:2,name:'Ivan Rakitić',image:'rakitich.jpg'},
+          {id:3,name:'Marcos do Nascimento Teixeira',image:'marcos.jpg'},
+          {id:4,name:'Jesús Manuel Corona',image:'corona.jpg'},
+          {id:5,name:'Alex Telles',image:'teles.jpg'},
+          {id:6,name:'Jesús Navas',image:'navas.jpg'},
+        ]
       },
       {
         id: 11,
