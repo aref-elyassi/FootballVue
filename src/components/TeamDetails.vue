@@ -69,6 +69,7 @@ h5 {
     width: 10rem;
     height: 10rem;
     border-radius: 10px;
+    
 }
 .coachimage{
     width: 15rem;

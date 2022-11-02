@@ -500,7 +500,17 @@ Teams:[
         founded:'1923',
         stadium:'Arena',
         stadium_image:'viarealstadium.jpg',
-        capacity:'23.700'
+        coach:'Unai Emery',
+        imageCoach:'emeri.jpg',
+        capacity:'23.700',
+        players:[
+          {id:1,name:'Dani Parejo',image:'parejo.jpg'},
+          {id:2,name:'Juan Foyth',image:'foyth.jpg'},
+          {id:3,name:'Gerard Moreno',image:'moreno.jpg'},
+          {id:4,name:'Yéremy Pino',image:'pino.jpg'},
+          {id:5,name:'Gerónimo Rulli',image:'rulli.jpg'},
+          {id:6,name:'Johan Mojica',image:'mojica.jpg'}
+        ]
       },
       {
         id: 13,
@@ -509,7 +519,17 @@ Teams:[
         founded:'1899',
         stadium:'San Siro',
         stadium_image:'sansiro.jpg',
-        capacity:'75.923'
+        coach:'Stefano Pioli',
+        imageCoach:'pioli.jpg',
+        capacity:'75.923',
+        players:[
+          {id:1,name:'Rafael Leão',image:'leao.jpg'},
+          {id:2,name:'Olivier Giroud',image:'giroud.jpg'},
+          {id:3,name:'Mike Maignan',image:'mike.jpg'},
+          {id:4,name:'Theo Hernández',image:'theo.jpg'},
+          {id:5,name:'Ante Rebić',image:'rebic.jpg'},
+          {id:6,name:'Alessandro Florenzi',image:'florenzi.jpg'}
+        ]
       },
       {
         id: 14,
@@ -518,7 +538,17 @@ Teams:[
         founded:'1908',
         stadium:'	Giuseppe Meazza',
         stadium_image:'sansiro.jpg',
-        capacity:'75.923'
+        coach:'Simone Inzaghi',
+        imageCoach:'simone.jpg',
+        capacity:'75.923',
+        players:[
+          {id:1,name:'Samir Handanović',image:'handanovic.jpg'},
+          {id:2,name:'Nicolò Barella',image:'barela.jpg'},
+          {id:3,name:'Kristjan Asllani',image:'aslani.jpg'},
+          {id:4,name:'Marcelo Brozović',image:'brozovic.jpg'},
+          {id:5,name:'Alessandro Bastoni',image:'bastoni.jpg'},
+          {id:6,name:'Roberto Gagliardini',image:'gilardini.jpg'}
+        ]
       },
       {
         id: 15,
@@ -527,7 +557,17 @@ Teams:[
         founded:'1897',
         stadium:'Juventus Stadium',
         stadium_image:'Juventusstadium.jpg',
-        capacity:'41.507'
+        coach:'Massimiliano Allegri',
+        imageCoach:'alegri.jpg',
+        capacity:'41.507',
+        players:[
+          {id:1,name:'Alex Sandro',image:'sandro.jpg'},
+          {id:2,name:'Leonardo Bonucci',image:'bonucci.jpg'},
+          {id:3,name:'Leandro Paredes',image:'parades.jpg'},
+          {id:4,name:'Juan Cuadrado',image:'cuadrado.jpg'},
+          {id:5,name:'Dušan Vlahović',image:'vulahovic.jpg'},
+          {id:6,name:'Federico Chiesa',image:'chiesa.jpg'}
+        ]
       },
       {
         id: 16,
