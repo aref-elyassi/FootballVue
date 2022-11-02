@@ -479,8 +479,18 @@ Teams:[
         logo: 'Valencia.png',
         founded:'1919',
         stadium:'Mestalla',
+        coach:'Gennaro Gattuso',
+        imageCoach:'gatuso.jpg',
         stadium_image:'mestalla.jpg',
-        capacity:'45.000'
+        capacity:'45.000',
+        players:[
+          {id:1,name:'Toni Lato',image:'lato.jpg'},
+          {id:2,name:'Edinson Cavani',image:'cavani.jpg'},
+          {id:3,name:'Hugo Guillamón',image:'hugo.jpg'},
+          {id:4,name:'José Gayà',image:'gaya.jpg'},
+          {id:5,name:'Mouctar Diakhaby',image:'diakhabi.jpg'},
+          {id:6,name:'Jaume Doménech',image:'juame.jpg'}
+        ]
 
       },
       {
