@@ -11,8 +11,5 @@
 </script>
 
 <style  scoped>
-.template{
-    height: 100vh;
-    
-}
+
 </style>

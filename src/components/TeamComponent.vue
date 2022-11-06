@@ -2,7 +2,7 @@
    <div class="card m-3">
         <div class="image d-flex align-items-center justify-content-center">
 
-            <img :src="require(`@/assets/images/${team.logo}`)" class="card-img-top" alt="...">
+            <img :src="require(`@/assets/images/${team.logo}`)" class="card-img-top mt-2" alt="...">
         </div>
         <div class="card-body">
             <h2 class="card-title">{{team.name}}</h2>
@@ -21,8 +21,8 @@
 
 <style  scoped>
 img{
-    height: 15rem;
-  width: 15rem;
+    height: 12rem;
+  width: 12rem;
  
  
 }

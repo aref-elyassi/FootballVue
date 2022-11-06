@@ -1,6 +1,8 @@
-<template>
-  <Header/>
-<router-view class="router"></router-view>
+<template >
+  <div class="app">
+    <Header/>
+    <router-view class="router"></router-view>
+  </div>
 </template>
 <script>
 import Home from './views/Home.vue';
@@ -10,9 +12,7 @@ export default{
 }
 </script>
 <style>
-.router{
+.app{
 
-background-color: aqua;
-height: 100%;
 }
 </style>

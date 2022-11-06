@@ -23,7 +23,7 @@ export default createStore({
           {
             id: 2,
             name: 'Menchester city',
-            logo: 'mancitylogo.jpg',
+            logo: 'mancity.png',
             players: [
               { id: 1, name: 'ronaldo' }
             ]
@@ -224,22 +224,8 @@ export default createStore({
               { id: 1, name: 'ronaldo' }
             ]
           },
-          {
-            id: 5,
-            name: 'Eintracht Frankfurt',
-            logo: 'frankfort.png',
-            players: [
-              { id: 1, name: 'ronaldo' }
-            ]
-          },
-          {
-            id: 6,
-            name: 'Wolfsburg',
-            logo: 'wolfsburg.png',
-            players: [
-              { id: 1, name: 'ronaldo' }
-            ]
-          },
+        
+         
 
 
         ]
@@ -303,7 +289,7 @@ Teams:[
       {
         id: 2,
         name: 'Menchester city',
-        logo: 'mancitylogo.jpg',
+        logo: 'mancity.png',
         founded:'1880',
         stadium:'Etihad',
         stadium_image:'mancity.jpg',
@@ -578,7 +564,15 @@ Teams:[
         stadium_image:'napolistadium.jpg',
         coach:'Luciano Spalletti',
         imageCoach:'spaleti.jpg',
-        capacity:'54.726'
+        capacity:'54.726',
+        players:[
+          {id:1,name:'Khvicha Kvaratskhelia',image:'khevicha.jpg'},
+          {id:2,name:'Giacomo Raspadori',image:'raspadori.jpeg'},
+          {id:3,name:'Hirving Lozano',image:'lozano.jpg'},
+          {id:4,name:'Giovanni Simeone',image:'gsimeone.jpg'},
+          {id:5,name:'Tanguy Ndombele',image:'ndombele.jpg'},
+          {id:6,name:'Alex Meret',image:'meret.jpg'},
+        ]
       },
       {
         id: 17,
@@ -586,8 +580,18 @@ Teams:[
         logo: 'AS_Roma.png',
         founded:'1927',
         stadium:'Stadio Olimpico',
+        coach:'jose morinho',
+        imageCoach:'jose.jpg',
         stadium_image:'romstadium.jpg',
-        capacity:'70.000'
+        capacity:'70.000',
+        players:[
+          {id:1,name:'Paulo Dybala',image:'dybala.jpg'},
+          {id:2,name:'Andrea Belotti',image:'belotti.jpg'},
+          {id:3,name:'Nicolò Zaniolo',image:'zanioli.jpg'},
+          {id:4,name:'Georginio Wijnaldum',image:'winaldom.png'},
+          {id:5,name:'Rui Patrício',image:'patricio.jpg'},
+          {id:6,name:'Lorenzo Pellegrini',image:'pellegrini.jpeg'}
+        ]
       },
       {
         id: 18,
@@ -595,8 +599,18 @@ Teams:[
         logo: 'Atalanta.png',
         founded:'1907',
         stadium:"	Gewiss Stadium",
+        coach:'Gian Piero Gasperini',
+        imageCoach:'gasperini.jpg',
         stadium_image:"atalantastadium.jpg",
-        capacity:"21.747"
+        capacity:"21.747",
+        players:[
+          {id:1,name:'Ademola Lookman',image:'lookman.jpg'},
+          {id:2,name:'Duván Zapata',image:'zapata.jpg'},
+          {id:3,name:'Merih Demiral',image:'demiral.jpg'},
+          {id:4,name:'Giorgio Scalvini',image:'scalvini.jpg'},
+          {id:5,name:'Juan Musso',image:'musso.jpg'},
+          {id:6,name:'Muriel Fruto',image:'fruto.jpg'}
+        ]
       },
       {
         id: 19,
@@ -604,8 +618,18 @@ Teams:[
         logo: 'bayern.png',
         founded:'1900',
         stadium:'Allianz Arena',
+        coach:'Julian Nagelsmann',
+        imageCoach:'julian.jpg',
         stadium_image:'alianarena.jpg',
-        capacity:'75.000'
+        capacity:'75.000',
+        players:[
+          {id:1,name:'Sadio Mané',image:'mane.jpg'},
+          {id:2,name:'Manuel Neuer',image:'neuer.jpg'},
+          {id:3,name:'Thomas Müller',image:'muller.jpg'},
+          {id:4,name:'Benjamin Pavard',image:'pavard.jpg'},
+          {id:5,name:'Leroy Sané',image:'sane.jpg'},
+          {id:6,name:'Joshua Kimmich',image:'kimich.jpg'}
+        ]
 
       },
       {
@@ -614,8 +638,20 @@ Teams:[
         logo: 'dortmond.png',
         founded:'1974',
         stadium:'Signal Iduna Park',
+        coach:'Edin Terzić',
+        imageCoach:'terzic.jpg',
         stadium_image:'dortmondstadium.jpg',   
-        capacity:'81.365'
+        capacity:'81.365',
+        players:[
+          {id:1,name:'Jude Bellingham',image:'blingham.jpg'},
+          {id:2,name:'Marco Reus',image:'reus.jpg'},
+          {id:3,name:'Youssoufa Moukoko',image:'moukoko.jpg'},
+          {id:4,name:'Karim Adeyemi',image:'adeyemi.jpg'},
+          {id:5,name:'Nico Schulz',image:'schulz.jpg'},
+          {id:6,name:'Mats Hummels',image:'hummels.jpg'},
+          
+          
+        ]
 
       },
       {
@@ -624,8 +660,18 @@ Teams:[
         logo: 'leipzig.png',
         founded:'2009',
         stadium:'Red Bull Arena',
+        coach:'Marco Rose',
+        imageCoach:'rose.jpg',
         stadium_image:'leipzigstadium.jpg',
-        capacity:'47.069'
+        capacity:'47.069',
+        players:[
+          {id:1,name:'Timo Werner',image:'werner.jpg'},
+          {id:2,name:'Christopher Nkunku',image:'nkunku.jpg'},
+          {id:3,name:'André Silva',image:'asilva.jpg'},
+          {id:4,name:'Joško Gvardiol',image:'gvardiol.jpg'},
+          {id:5,name:'Dani Olmo',image:'olmo.jpg'},
+          {id:6,name:'Dominik Szoboszlai',image:'szoboszlai.jpg'},
+        ]
       },
       {
         id: 22,
@@ -633,35 +679,39 @@ Teams:[
         logo: 'bayer-Leverkusen.png',
         founded:'1904',
         stadium:'BayArena',
+        coach:'Xabi Alonso',
+        imageCoach:'alonso.jpg',
         stadium_image:'leverkusen.jpg',
-        capacity:'30.210'
+        capacity:'30.210',
+        players:[
+          {id:1,name:'Sardar Azmoun',image:'azmoon.jpg'},
+          {id:2,name:'Callum Hudson-Odoi',image:'odoi.jpeg'},
+          {id:3,name:'Paulinho',image:'paulinho.jpeg'},
+          {id:4,name:'Florian Wirtz',image:'wirtz.jpg'},
+          {id:5,name:'Patrik Schick',image:'schik.jpg'},
+          {id:6,name:'Lukáš Hrádecký',image:'hardecky.jpg'},
+
+        ]
       },
-      {
-        id: 23,
-        name: 'Eintracht Frankfurt',
-        logo: 'frankfort.png',
-        founded:'1899',
-        stadium:'Deutsche Bank Park',
-        stadium_image:'frankfortstadium.jpg',
-        capacity:'51.500'
-      },
-      {
-        id: 24,
-        name: 'Wolfsburg',
-        logo: 'wolfsburg.png',
-        founded:'1945',
-        stadium:'Volkswagen Arena',
-        stadium_image:"volkswagen-arena.jpg",
-        capacity:'30.000'
-      },
+    
       {
         id: 25,
         name: 'PSG',
         logo: 'psg.png',
         founded:'1974',
         stadium:'Parc des Princes',
+        coach:'Christophe Galtier',
+        imageCoach:'galtier.jpg',
         stadium_image:'psgstadium.jpg',
-        capacity:'47.929'
+        capacity:'47.929',
+        players:[
+          {id:1,name:'Lionel Messi',image:'mesi.jpeg'},
+          {id:2,name:'Neymar Jr',image:'neymar2.jpg'},
+          {id:3,name:'Kylian Mbappé',image:'mbape.jpg'},
+          {id:4,name:'Marco Verratti',image:'verati.jpg'},
+          {id:5,name:'Gianluigi Donnarumma',image:'donaroma.jpg'},
+          {id:6,name:'Sergio Ramos',image:'ramos.jpeg'},
+        ]
       },
       {
         id: 26,
@@ -669,17 +719,37 @@ Teams:[
         logo: 'marsey.png',
         founded:'1899',
         stadium:'Orange Vélodrome',
+        coach:'Igor Tudor',
+        imageCoach:'tudor.jpg',
         stadium_image:'marseysta.jpg',
-        capacity:'67.260'
+        capacity:'67.260',
+        players:[
+          {id:1,name:'Mattéo Guendouzi',image:'genduzi.jpg'},
+          {id:2,name:'Dimitri Payet',image:'payet.jpg'},
+          {id:3,name:'Leonardo Balerdi',image:'balerdi.jpg'},
+          {id:4,name:'Pau López',image:'lopez.jpg'},
+          {id:5,name:'Pape Gueye',image:'gueye.jpg'},
+          {id:6,name:'Sead Kolašinac',image:'kolasinac.jpeg'},
+        ]
       },
       {
         id: 27,
         name: 'OL',
         logo: 'lion.png',
         founded:'1950',
+        coach:'Laurent Blanc',
+        imageCoach:'blanc.jpg',
         stadium:'Groupama Stadium',
         stadium_image:'olsta.jpg',
-        capacity:'59.186'
+        capacity:'59.186',
+        players:[
+          {id:1,name:'Alexandre Lacazette',image:'lacazet.jpg'},
+          {id:2,name:'Houssem Aouar',image:'aour.jpg'},
+          {id:3,name:'Jérôme Boateng',image:'boateng.jpg'},
+          {id:4,name:'Moussa Dembélé',image:'mdembele.jpg'},
+          {id:5,name:'Nicolás Tagliafico',image:'tagliafico.jpg'},
+          {id:6,name:'Anthony Lopes',image:'lopes.jpg'},
+        ]
       },
     
 

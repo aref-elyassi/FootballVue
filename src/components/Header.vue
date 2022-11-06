@@ -1,48 +1,27 @@
 <template>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
+    
+
+    <nav class="navbar navbar-expand-lg bg-secondary">
         <div class="container-fluid">
-            <h1 class="navbar-brand" href="#">Football Project</h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                   
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <router-link to="/" class="nav-link">Home</router-link>
+                        <router-link to="/leagues" class="nav-link">Leagues</router-link>
+                        <router-link to="/teams" class="nav-link">Teams</router-link>
+                        <router-link to="/players" class="nav-link">Players</router-link>
+                        <router-link to="/login" class="nav-link">Login</router-link>
+
+                    </div>
                 </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                           
-                            <router-link to="/" class="nav-link">Home</router-link>
-                        </li>
-                        <li class="nav-item">
-                           
-                            <router-link to="/players" class="nav-link">Players</router-link>
-                        </li>
-                        <li class="nav-item">
-                           
-                            <router-link to="/teams" class="nav-link">Teams</router-link>
-                        </li>
-                        <li class="nav-item">
-                           
-                            <router-link to="/leagues" class="nav-link">Leagues</router-link>
-                        </li>
-                        <li class="nav-item">
-                           
-                            <router-link to="/login" class="nav-link">Login</router-link>
-                        </li>
-                       
-                       
-                    </ul>
-                  
-                </div>
-            </div>
         </div>
     </nav>
+
+
 </template>
 
 <script>
