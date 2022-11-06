@@ -1,7 +1,7 @@
 <template>
     
 
-    <nav class="navbar navbar-expand-lg bg-secondary">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -13,7 +13,6 @@
                         <router-link to="/" class="nav-link">Home</router-link>
                         <router-link to="/leagues" class="nav-link">Leagues</router-link>
                         <router-link to="/teams" class="nav-link">Teams</router-link>
-                        <router-link to="/players" class="nav-link">Players</router-link>
                         <router-link to="/login" class="nav-link">Login</router-link>
 
                     </div>
@@ -30,6 +29,11 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-
+<style  scoped>
+.navbar{
+    background-color: #1b2e3c;
+}
+.nav-link{
+    color: #fff;
+}
 </style>

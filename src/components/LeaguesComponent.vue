@@ -21,7 +21,9 @@ export default {
 </script>
 
 <style  scoped>
-
+.card{
+    background: #B1D4E0;
+}
 img{
     height: 15rem;
   width: 15rem;

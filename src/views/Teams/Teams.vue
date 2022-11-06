@@ -1,8 +1,8 @@
 <template>
-   <div class="container">
+   <div class="container-fluid">
         <div class="row d-flex align-items-center justify-content-center">
 
-            <h1 class="text-center">Leagues</h1>
+            <h1 class="text-center text-white">Leagues</h1>
             <div v-for="team in teams" :key="team.id" class="col-md-4 col-sm-6 ">
                 <TeamComponent :team="team" />
             </div>
@@ -24,6 +24,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-
+<style  scoped>
+.container-fluid{
+    background: #1C3F60;
+}
 </style>

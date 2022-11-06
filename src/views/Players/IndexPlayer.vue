@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PlayerComponent :player="leagues"/>
+        <PlayersDetails :player="player"/>
     </div>
 </template>
 
@@ -9,16 +9,17 @@
 
 import { computed } from 'vue'
 import { useStore } from 'vuex'
-import PlayerComponent from '@/components/PlayerComponent.vue'
+import {useRoute} from 'vue-router'
+import PlayersDetails from '@/components/PlayersDetails.vue'
 export default {
     setup() {
         const store = useStore()
         const router=useRoute()
-        const leagues = computed(() => store.getters.allLeagues)
-        return{leagues}
+        const player = computed(() => store.getters.getPlayerById(router.params.name))
+        return{player}
     },
 
-    components: { PlayerComponent }
+    components: {  PlayersDetails }
 }
 </script>
 

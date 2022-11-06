@@ -1,33 +1,33 @@
 <template>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row border rounded p-5 d-flex align-items-center justify-content-between">
-            <h1 class="text-center">{{teamDetails.name}}</h1>
+            <h1 class="text-center text">{{teamDetails.name}}</h1>
             <div class="col-md-4 col-sm-12 d-flex align-items-center justify-content-center flex-column">
 
                 <img class="stadium  rounded mb-2" :src="require(`@/assets/images/${teamDetails.stadium_image}`)"
                 alt="">
                 
-                <h5>Stadium:{{teamDetails.stadium}}</h5>
-                <h5>Capacity: {{teamDetails.capacity}} person</h5>
+                <h5 class="text">Stadium:{{teamDetails.stadium}}</h5>
+                <h5 class="text">Capacity: {{teamDetails.capacity}} person</h5>
             </div>
             <div class="col-md-4 col-sm-12 d-flex align-items-center justify-content-center flex-column">
                 <img class="team-logo col-md-4 col-sm-12 mb-2" :src="require(`@/assets/images/${teamDetails.logo}`)"
                     alt="">
-                <h5>Founded in:{{teamDetails.founded}}</h5>
+                <h5 class="text">Founded in:{{teamDetails.founded}}</h5>
                
             </div>
             <div class="col-md-4 col-sm-12 d-flex align-items-center justify-content-center flex-column">
                 <img :src="require(`@/assets/images/${teamDetails.imageCoach}`)" alt="" class="coachimage">
                 <br>
-                <h5>Coach:{{teamDetails.coach}}</h5>
+                <h5 class="text">Coach:{{teamDetails.coach}}</h5>
             </div>
-            <h3 class="text-center mt-1">Players</h3>
+            <h3 class="text-center mt-1 text">Players</h3>
             <hr>
             <div class="teams d-flex align-items-center justify-content-center flex-wrap">
                     <div v-for="player in teamDetails.players" :key="player.id" class="col-md-2 col-sm-12 mt-3
                     d-flex align-items-center justify-content-center flex-column">
                         <img class="playerImage" :src="require(`@/assets/images/${player.image}`)" alt="" >
-                        <router-link class="text-decoration-none text-dark txt"
+                        <router-link class="text-decoration-none text txt"
                             :to="{name:'playerId',params:{name:player.name}}">{{player.name}}
                         </router-link>
                     </div>
@@ -45,6 +45,12 @@ export default {
 </script>
 
 <style  scoped>
+.text{
+    color: rgb(160, 160, 160);
+}
+.container-fluid{
+    background: #1C3F60;
+}
 h1 {
     font-size: 3.2rem;
     border-bottom: 2px solid #000;

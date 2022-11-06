@@ -2,15 +2,15 @@
     <div class="container-fluid">
         <div class="row w-100">
             <div class="col-md-5 col-sm-12 login-form border rounded p-3 h-50">
-                <h1 class="text-center">Login Form</h1>
+                <h1 class="text-center text-white">Login Form</h1>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <label for="exampleFormControlInput1" class="form-label text-white">Email address</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1"
                         placeholder="name@example.com" v-model="emailLogin">
                     <p class="text-danger">{{ErrorEmailLogin}}</p>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput2" class="form-label">Password</label>
+                    <label for="exampleFormControlInput2" class="form-label text-white">Password</label>
                     <input type="password" class="form-control" id="exampleFormControlInput2" v-model="passwordLogin">
                     <p class="text-danger">{{ErrorPasswordLogin}}</p>
                 </div>
@@ -21,27 +21,27 @@
             </div>
             <div class="col-md-2"></div>
             <div class="col-md-5 col-sm-12 register-form border rounded p-3">
-                <h1 class="text-center">Register Form</h1>
+                <h1 class="text-center text-white">Register Form</h1>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Name & Family</label>
+                    <label for="exampleFormControlInput1" class="form-label text-white">Name & Family</label>
                     <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="John Doe"
                         v-model="nameRegister">
                     <p class="text-danger">{{ErrorNameRegister}}</p>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput2" class="form-label">Email</label>
+                    <label for="exampleFormControlInput2" class="form-label text-white">Email</label>
                     <input type="email" class="form-control" id="exampleFormControlInput2"
                         placeholder="name@example.com" v-model="emailRegister">
                     <p class="text-danger">{{ErrorEmailRegister}}</p>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput3" class="form-label">Phone Number</label>
+                    <label for="exampleFormControlInput3" class="form-label text-white">Phone Number</label>
                     <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="+2144556677"
                         v-model="phoneRegister">
                     <p class="text-danger">{{ErrorPhoneRegister}}</p>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput4" class="form-label">Password</label>
+                    <label for="exampleFormControlInput4" class="form-label text-white">Password</label>
                     <input type="password" class="form-control" id="exampleFormControlInput4"
                         v-model="passwordRegister">
                     <p class="text-danger">{{ErrorPasswordRegister}}</p>
@@ -120,7 +120,7 @@ export default {
 .container-fluid {
     height: 100vh;
 
-    background: #00969b;
+    background: #AFC1D0;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -128,17 +128,16 @@ export default {
 
 .login-form,
 .register-form {
-    background: rgb(1, 108, 127);
+    background: #1C3F60;
     display: flex;
-
     flex-direction: column;
 }
 input{
-    background: #00969b;
+    background: #AFC1D0;
     border: transparent;
 }
 input:focus{
-    background: rgb(0, 97, 61);
+    background:#1C3F60
  
 }
 </style>

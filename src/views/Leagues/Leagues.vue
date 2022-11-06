@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row d-flex align-items-center justify-content-center">
 
             <h1 class="text-center">Leagues</h1>
@@ -28,5 +28,7 @@ export default {
 </script>
 
 <style  scoped>
-
+.container-fluid{
+    background: #1C3F60;
+}
 </style>

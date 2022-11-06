@@ -34,4 +34,7 @@ img{
     color: rgb(253, 5, 5);
     text-decoration: underline;
 }
+.card{
+    background: #B1D4E0;
+}
 </style>
